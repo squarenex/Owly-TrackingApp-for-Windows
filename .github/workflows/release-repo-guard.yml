@@ -1,0 +1,24 @@
+name: Release Repo Guard
+
+on:
+  push:
+    branches: ["**"]
+  pull_request:
+
+jobs:
+  block-source-code:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Block source code in public release repo
+        run: |
+          set -e
+          forbidden_files=$(git ls-files | grep -E '\.(dart|ts|tsx|js|jsx|java|kt|swift|m|mm|cc|cpp|c|h|hpp|go|rs|py|php|rb|cs)$' || true)
+          forbidden_dirs=$(git ls-files | grep -E '^(lib/|src/|app/|backend_laravel/|android/|ios/|macos/|linux/|windows/|test/)' || true)
+          if [ -n "$forbidden_files" ] || [ -n "$forbidden_dirs" ]; then
+            echo "This public repo is release-only. Source code is not allowed."
+            echo "$forbidden_files"
+            echo "$forbidden_dirs"
+            exit 1
+          fi
+
