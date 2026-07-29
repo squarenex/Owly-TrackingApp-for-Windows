@@ -1,37 +1,34 @@
 # Staffy Public Releases
 
-This repository is the public distribution channel for Staffy desktop builds.
+This repository publishes **downloadable Staffy desktop apps only**.
 
-## Purpose
+Source code stays private in:
+`https://github.com/kashifg4171/Squarenex_Staff_Tracking_Desktop`
 
-- Publish release notes and downloadable binaries.
-- Keep source code private in the private repository.
+## What you get here
 
-## Private Source Repository
+Each GitHub Release attaches **only**:
 
-- Source code is maintained in:
-  `https://github.com/kashifg4171/Squarenex_Staff_Tracking_Desktop` (private)
+| File | Platform |
+|------|----------|
+| `Staffy-Windows-Setup-vX.Y.Z+N.exe` | Windows installer |
+| `Staffy-macOS-vX.Y.Z+N.dmg` | macOS disk image |
 
-## What is stored here
+No source code, no `.zip` of Dart/Flutter project, no secrets.
 
-- Release notes (`CHANGELOG.md`)
-- Download artifacts (`releases/`), such as:
-  - `.exe`
-  - `.msi`
-  - `.zip`
-  - checksums (`.sha256`, `.txt`)
+## How releases are created
 
-## What is not stored here
+1. Push (or manual workflow) on the **private** desktop repo.
+2. CI builds `.exe` + `.dmg`.
+3. CI creates a Release **in this public repo** and uploads only those two files.
 
-- Application source code
-- Internal scripts, keys, or secrets
-- Environment files (`.env`)
+## Download
 
-## Release process
+Open **Releases** on this repo and grab the latest `.exe` or `.dmg`.
 
-1. Build in the private source repository.
-2. Export release binaries.
-3. Add binaries under `releases/<version>/`.
-4. Update `CHANGELOG.md`.
-5. Create a GitHub Release in this public repository and attach binaries.
+### macOS Gatekeeper
+Unsigned builds: right-click Staffy → **Open** the first time.
 
+## Changelog
+
+See [CHANGELOG.md](./CHANGELOG.md).

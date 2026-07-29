@@ -1,30 +1,20 @@
 # Changelog
 
-All notable public releases are documented here.
+Public Staffy desktop binaries only.
 
 ## [Unreleased]
 
-- Initial public release repository setup.
+- Automated public releases: Windows `.exe` installer + macOS `.dmg` only.
 
-## Release Template
-
-Use this format for each version:
+## Template
 
 ```
-## [vX.Y.Z] - YYYY-MM-DD
-
-### Added
-- ...
-
-### Changed
-- ...
-
-### Fixed
-- ...
+## [vX.Y.Z+N] - YYYY-MM-DD
 
 ### Downloads
-- Windows Installer: `releases/vX.Y.Z/Staffy-Setup-vX.Y.Z.exe`
-- Portable ZIP: `releases/vX.Y.Z/Staffy-vX.Y.Z.zip`
-- Checksums: `releases/vX.Y.Z/checksums.txt`
-```
+- Windows: Staffy-Windows-Setup-vX.Y.Z+N.exe
+- macOS: Staffy-macOS-vX.Y.Z+N.dmg
 
+### Notes
+- ...
+```

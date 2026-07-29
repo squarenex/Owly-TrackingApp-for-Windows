@@ -1,21 +1,30 @@
-# Default: block source code from this public release repo
+# Default: block almost everything in this public release repo
 *
 
-# Keep repository metadata/docs
+# Keep docs + CI guard
 !.gitignore
 !README.md
 !CHANGELOG.md
+!RELEASE_SETUP.md
 !.github/
 !.github/**
+
+# Allow release binaries folder (exe/dmg only in practice)
 !releases/
 !releases/**
+!releases/**/*.exe
+!releases/**/*.dmg
+!releases/**/*.sha256
+!releases/**/*.txt
+!releases/**/.gitkeep
 
-# Never expose sensitive files
+# Never commit source / secrets
 .env
 .env.*
 *.key
 *.pem
-*.p12
-*.jks
-*.mobileprovision
-
+*.dart
+*.swift
+*.cpp
+*.h
+*.php
