@@ -1,0 +1,5 @@
+﻿Staffy Windows build
+Tag: v1.0.1+2608032251
+Updated: 2026-08-03 22:51
+Stable: Staffy-Windows-Setup-latest.zip
+Note: Inno Setup not installed - portable ZIP used. Unzip and run WorkTrack.exe
