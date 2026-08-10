@@ -1,6 +1,9 @@
-Owly macOS build
-Tag: v1.0.1+2608101350
-Updated: 2026-08-10 13:51
-File: Owly-macOS-v1.0.1+2608101350.dmg
-Stable: Owly-macOS-latest.dmg
-Alias:  Staffy-macOS-latest.dmg
+Owly macOS build (Universal: Intel + Apple Silicon)
+Tag: v1.0.1+2608101356
+Updated: 2026-08-10 13:56
+DMG: Owly-macOS-v1.0.1+2608101356.dmg
+ZIP: Owly-macOS-v1.0.1+2608101356.zip
+Stable DMG: Owly-macOS-latest.dmg
+Stable ZIP: Owly-macOS-latest.zip
+Alias DMG:  Staffy-macOS-latest.dmg
+Alias ZIP:  Staffy-macOS-latest.zip
