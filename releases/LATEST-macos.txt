@@ -1,6 +1,6 @@
 Owly macOS build (Universal: Intel + Apple Silicon)
-Tag: v1.0.1+2608101356
-Updated: 2026-08-10 13:56
+Tag: v1.0.1+2608101358
+Updated: 2026-08-10 13:58
 DMG: Owly-macOS-v1.0.1+2608101356.dmg
 ZIP: Owly-macOS-v1.0.1+2608101356.zip
 Stable DMG: Owly-macOS-latest.dmg
