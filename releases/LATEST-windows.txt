@@ -1,7 +1,0 @@
-﻿Owly Windows build
-Tag: v1.0.1+2608101421
-Updated: 2026-08-10 14:22
-Exe: Owly-Windows-Setup-v1.0.1+2608101421.exe
-Zip: Owly-Windows-Setup-v1.0.1+2608101421.zip
-Stable: Owly-Windows-Setup-latest.exe / .zip
-Also: Staffy-Windows-Setup-latest.exe / .zip
