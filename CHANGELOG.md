@@ -4,7 +4,7 @@ Public Staffy desktop binaries only.
 
 ## [Unreleased]
 
-- Automated public releases: Windows `.exe` installer + macOS `.dmg` only.
+- Manual public releases only: upload Windows `.exe` + macOS `.dmg` by hand (no auto CI publish).
 
 ## Template
 
