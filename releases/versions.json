@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-17T03:53:56+00:00",
+  "updated_at": "2026-08-17T07:17:15+00:00",
   "platforms": {
     "windows": {
       "latest": "1.2",
       "versions": [
         {
           "version": "1.2",
-          "published_at": "2026-08-17T03:36:01+00:00",
+          "published_at": "2026-08-17T07:17:15+00:00",
           "zip": "Owly-Windows-Setup-1.2.zip",
           "exe": "Owly-Windows-Setup-1.2.exe"
         },
@@ -19,8 +19,15 @@
       ]
     },
     "macos_apple_silicon": {
-      "latest": "",
-      "versions": []
+      "latest": "1.1",
+      "versions": [
+        {
+          "version": "1.1",
+          "published_at": "2026-08-17T03:53:56+00:00",
+          "zip": "Owly-macOS-Intel-1.1.zip",
+          "dmg": "Owly-macOS-Intel-1.1.dmg"
+        }
+      ]
     },
     "macos_intel": {
       "latest": "1.1",
