@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-20T18:58:13+00:00",
+  "updated_at": "2026-08-20T19:47:40+00:00",
   "platforms": {
     "windows": {
       "latest": "1.4",
       "versions": [
         {
           "version": "1.4",
-          "published_at": "2026-08-20T18:58:13+00:00",
+          "published_at": "2026-08-20T19:47:39+00:00",
           "zip": "Owly-Windows-Setup-1.4.zip",
           "exe": "Owly-Windows-Setup-1.4.exe"
         },
@@ -27,40 +27,6 @@
           "published_at": "2026-08-13T02:35:24+00:00",
           "zip": "Owly-Windows-Setup-1.1.zip",
           "exe": "Owly-Windows-Setup-1.1.exe"
-        }
-      ]
-    },
-    "macos_apple_silicon": {
-      "latest": "1.2",
-      "versions": [
-        {
-          "version": "1.2",
-          "published_at": "2026-08-18T16:31:34+00:00",
-          "zip": "Owly-macOS-Intel-1.2.zip",
-          "dmg": "Owly-macOS-Intel-1.2.dmg"
-        },
-        {
-          "version": "1.1",
-          "published_at": "2026-08-17T03:53:56+00:00",
-          "zip": "Owly-macOS-Intel-1.1.zip",
-          "dmg": "Owly-macOS-Intel-1.1.dmg"
-        }
-      ]
-    },
-    "macos_intel": {
-      "latest": "1.2",
-      "versions": [
-        {
-          "version": "1.2",
-          "published_at": "2026-08-18T16:31:34+00:00",
-          "zip": "Owly-macOS-Intel-1.2.zip",
-          "dmg": "Owly-macOS-Intel-1.2.dmg"
-        },
-        {
-          "version": "1.1",
-          "published_at": "2026-08-17T03:53:56+00:00",
-          "zip": "Owly-macOS-Intel-1.1.zip",
-          "dmg": "Owly-macOS-Intel-1.1.dmg"
         }
       ]
     }
