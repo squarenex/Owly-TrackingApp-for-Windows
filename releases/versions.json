@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-08-28T08:38:07+00:00",
+  "updated_at": "2026-08-28T08:43:05+00:00",
   "platforms": {
     "windows": {
       "latest": "1.8",
       "versions": [
         {
           "version": "1.8",
-          "published_at": "2026-08-28T08:38:06+00:00",
+          "published_at": "2026-08-28T08:43:05+00:00",
           "zip": "Owly-Windows-Setup-1.8.zip",
           "exe": "Owly-Windows-Setup-1.8.exe"
         },
