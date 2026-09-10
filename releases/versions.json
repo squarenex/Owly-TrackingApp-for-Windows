@@ -1,9 +1,15 @@
 {
-  "updated_at": "2026-09-07T08:03:36+00:00",
+  "updated_at": "2026-09-10T04:01:36+00:00",
   "platforms": {
     "windows": {
-      "latest": "2.2",
+      "latest": "2.3",
       "versions": [
+        {
+          "version": "2.3",
+          "published_at": "2026-09-10T04:01:35+00:00",
+          "zip": "Owly-Windows-Setup-2.3.zip",
+          "exe": "Owly-Windows-Setup-2.3.exe"
+        },
         {
           "version": "2.2",
           "published_at": "2026-09-07T08:03:35+00:00",
